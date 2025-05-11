@@ -101,8 +101,8 @@ def reset_selection():
     capture_and_translate()
 
 def main():
-    print("Press T to capture and translate.")
-    print("Press R to reselect the region.")
+    print("Press T to capture and translate. If no region is selected, it will prompt you to select one.")
+    print("Press R to select the region and translate.")
     print("Press Esc to exit.")
 
     keyboard.add_hotkey('t', capture_and_translate)
